@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EA6F154F668F476840F61A5 /* Pods_Sushi_Savior.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A45337CB5216BB55245415 /* Pods_Sushi_Savior.framework */; };
 		92A7B36C1BEB01DA00273E33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7B36B1BEB01DA00273E33 /* AppDelegate.swift */; };
 		92A7B36E1BEB01DA00273E33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7B36D1BEB01DA00273E33 /* ViewController.swift */; };
 		92A7B3711BEB01DA00273E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A7B36F1BEB01DA00273E33 /* Main.storyboard */; };
 		92A7B3741BEB01DA00273E33 /* Sushi_Savior.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92A7B3721BEB01DA00273E33 /* Sushi_Savior.xcdatamodeld */; };
 		92A7B3761BEB01DA00273E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A7B3751BEB01DA00273E33 /* Assets.xcassets */; };
 		92A7B3791BEB01DA00273E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A7B3771BEB01DA00273E33 /* LaunchScreen.storyboard */; };
+		92A7B3811BEB0CA900273E33 /* FindRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7B3801BEB0CA900273E33 /* FindRestViewController.swift */; };
+		92A7B3851BEB0ECD00273E33 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7B3841BEB0ECD00273E33 /* RestaurantModel.swift */; };
+		92A7B3871BEB17F000273E33 /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7B3861BEB17F000273E33 /* ReviewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05A45337CB5216BB55245415 /* Pods_Sushi_Savior.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sushi_Savior.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9089590A24264F26F7B88816 /* Pods-Sushi Savior.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sushi Savior.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sushi Savior/Pods-Sushi Savior.debug.xcconfig"; sourceTree = "<group>"; };
 		92A7B3681BEB01DA00273E33 /* Sushi Savior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sushi Savior.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A7B36B1BEB01DA00273E33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A7B36D1BEB01DA00273E33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		92A7B3751BEB01DA00273E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A7B3781BEB01DA00273E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A7B37A1BEB01DA00273E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A7B3801BEB0CA900273E33 /* FindRestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindRestViewController.swift; sourceTree = "<group>"; };
+		92A7B3841BEB0ECD00273E33 /* RestaurantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		92A7B3861BEB17F000273E33 /* ReviewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		AFD1B60CEB71BA8C52FA73CD /* Pods-Sushi Savior.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sushi Savior.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sushi Savior/Pods-Sushi Savior.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA6F154F668F476840F61A5 /* Pods_Sushi_Savior.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0039A5FEAC71060BD4B3D5A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9089590A24264F26F7B88816 /* Pods-Sushi Savior.debug.xcconfig */,
+				AFD1B60CEB71BA8C52FA73CD /* Pods-Sushi Savior.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4757D279748C0B50C675F31A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05A45337CB5216BB55245415 /* Pods_Sushi_Savior.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		92A7B35F1BEB01DA00273E33 = {
 			isa = PBXGroup;
 			children = (
 				92A7B36A1BEB01DA00273E33 /* Sushi Savior */,
 				92A7B3691BEB01DA00273E33 /* Products */,
+				0039A5FEAC71060BD4B3D5A3 /* Pods */,
+				4757D279748C0B50C675F31A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,42 @@
 		92A7B36A1BEB01DA00273E33 /* Sushi Savior */ = {
 			isa = PBXGroup;
 			children = (
-				92A7B36B1BEB01DA00273E33 /* AppDelegate.swift */,
-				92A7B36D1BEB01DA00273E33 /* ViewController.swift */,
+				92A7B3881BEB17F600273E33 /* Models */,
 				92A7B36F1BEB01DA00273E33 /* Main.storyboard */,
-				92A7B3751BEB01DA00273E33 /* Assets.xcassets */,
-				92A7B3771BEB01DA00273E33 /* LaunchScreen.storyboard */,
+				92A7B3831BEB0D0500273E33 /* ViewControllers */,
+				92A7B3821BEB0CF300273E33 /* Assets */,
 				92A7B37A1BEB01DA00273E33 /* Info.plist */,
-				92A7B3721BEB01DA00273E33 /* Sushi_Savior.xcdatamodeld */,
 			);
 			path = "Sushi Savior";
+			sourceTree = "<group>";
+		};
+		92A7B3821BEB0CF300273E33 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				92A7B36B1BEB01DA00273E33 /* AppDelegate.swift */,
+				92A7B3751BEB01DA00273E33 /* Assets.xcassets */,
+				92A7B3771BEB01DA00273E33 /* LaunchScreen.storyboard */,
+				92A7B3721BEB01DA00273E33 /* Sushi_Savior.xcdatamodeld */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		92A7B3831BEB0D0500273E33 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				92A7B36D1BEB01DA00273E33 /* ViewController.swift */,
+				92A7B3801BEB0CA900273E33 /* FindRestViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		92A7B3881BEB17F600273E33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92A7B3841BEB0ECD00273E33 /* RestaurantModel.swift */,
+				92A7B3861BEB17F000273E33 /* ReviewModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92A7B37D1BEB01DA00273E33 /* Build configuration list for PBXNativeTarget "Sushi Savior" */;
 			buildPhases = (
+				8A32C1037BAB830DD4FBCC1D /* Check Pods Manifest.lock */,
 				92A7B3641BEB01DA00273E33 /* Sources */,
 				92A7B3651BEB01DA00273E33 /* Frameworks */,
 				92A7B3661BEB01DA00273E33 /* Resources */,
+				FAFC6C5CA38E49E077EC751D /* Embed Pods Frameworks */,
+				18E25AF04A68DBB256DFF352 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +193,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18E25AF04A68DBB256DFF352 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sushi Savior/Pods-Sushi Savior-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A32C1037BAB830DD4FBCC1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAFC6C5CA38E49E077EC751D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sushi Savior/Pods-Sushi Savior-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92A7B3641BEB01DA00273E33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				92A7B36E1BEB01DA00273E33 /* ViewController.swift in Sources */,
+				92A7B3811BEB0CA900273E33 /* FindRestViewController.swift in Sources */,
 				92A7B36C1BEB01DA00273E33 /* AppDelegate.swift in Sources */,
 				92A7B3741BEB01DA00273E33 /* Sushi_Savior.xcdatamodeld in Sources */,
+				92A7B3851BEB0ECD00273E33 /* RestaurantModel.swift in Sources */,
+				92A7B3871BEB17F000273E33 /* ReviewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +360,7 @@
 		};
 		92A7B37E1BEB01DA00273E33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9089590A24264F26F7B88816 /* Pods-Sushi Savior.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Sushi Savior/Info.plist";
@@ -260,6 +372,7 @@
 		};
 		92A7B37F1BEB01DA00273E33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD1B60CEB71BA8C52FA73CD /* Pods-Sushi Savior.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Sushi Savior/Info.plist";
@@ -288,6 +401,7 @@
 				92A7B37F1BEB01DA00273E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
